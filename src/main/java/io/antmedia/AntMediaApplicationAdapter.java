@@ -470,11 +470,11 @@ public class AntMediaApplicationAdapter extends MultiThreadedApplicationAdapter 
 		}
 
 		String vodId = RandomStringUtils.randomNumeric(24);
-		VoD newVod = new VoD(streamName, streamId, relativePath, vodName, systemTime, duration, fileSize, VoD.STREAM_VOD, vodId);
-
-		if (getDataStore().addVod(newVod) == null) {
-			logger.warn("Stream vod with stream id {} cannot be added to data store", streamId);
-		}
+//		VoD newVod = new VoD(streamName, streamId, relativePath, vodName, systemTime, duration, fileSize, VoD.STREAM_VOD, vodId);
+//
+//		if (getDataStore().addVod(newVod) == null) {
+//			logger.warn("Stream vod with stream id {} cannot be added to data store", streamId);
+//		}
 
 		int index;
 		//HOOK_ACTION_VOD_READY is called only the stream in the datastore
