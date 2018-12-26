@@ -139,6 +139,7 @@
 					<property name="suffix" value=".log" />
 					<property name="pattern" value="common" />
 					<property name="rotatable" value="true" />
+					<property name="maxDays" value="14" />
 				</bean>
 				
 				

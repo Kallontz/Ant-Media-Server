@@ -71,6 +71,8 @@
         <maven.build.timestamp.format>yyMMdd_HHmm</maven.build.timestamp.format>
         <buildNumber>${maven.build.timestamp}</buildNumber>
 
+        <!-- The version forced to support maxDays at AccessLogValve. -->
+        <tomcat.version>8.5.35</tomcat.version>
     </properties>
 
     <build>
